@@ -33,9 +33,9 @@ talker.pyとlistener.pyを1つの端末で実行し、トピックのcountupを�
 ## uranai_talk_listen.launch.py
 uranai_talker.pyとuranai_listener.pyを1つの端末で実行、トピックのuranaiを通して通信する
 ## トピック
-#### countup
+### countup
 「talker.py」ノードが送信した情報を「listener.py」ノードが受信する、ノード間をやり取りする通路
-#### uranai
+### uranai
 「uranai_talker.py」ノードが送信した情報を「uranai_listener.py」ノードが受信する、ノード間をやり取りする通路
 
 ## コマンドと実行例
@@ -142,7 +142,7 @@ $ ros2 run mypkg uranai_listener
 ~~~
 $ ros2 launch mypkg talk_listen.launch.py
 ~~~
-#### 実行結果
+#### 実行結果(端末1にて表示)
 ~~~
 [INFO] [launch]: All log files can be found below /home/kitami/.ros/log/2023-12-31-22-54-36-176252-marine00-29354
 [INFO] [launch]: Default logging verbosity is set to INFO
@@ -161,7 +161,7 @@ $ ros2 launch mypkg talk_listen.launch.py
 ~~~
 $ ros2 launch mypkg uranai_talk_listen.launch.py
 ~~~
-#### 実行結果
+#### 実行結果(端末1にて表示)
 ~~~
 [INFO] [launch]: All log files can be found below /home/kitami/.ros/log/2023-12-31-22-58-00-391074-marine00-29685
 [INFO] [launch]: Default logging verbosity is set to INFO
