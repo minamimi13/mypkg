@@ -1,4 +1,7 @@
-# robosys2023
+# mypkg
+
+![test](https://github.com/minamimi13/mypkg/actions/workflows/test.yml/badge.svg)
+
 #### ロボットシステム学2023
 
 ## 目次
