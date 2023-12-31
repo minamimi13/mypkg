@@ -26,6 +26,8 @@ setup(
         'console_scripts': [
             'talker = mypkg.talker:main',
             'listener = mypkg.listener:main',
+            'uranai_talker = mypkg.uranai_talker:main',
+            'uranai_listener = mypkg.uranai_listener:main'
         ],
     },
 )
