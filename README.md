@@ -7,11 +7,11 @@
 これには占い結果を表示させるtalkerとlistenerの相互通信が含まれます。
 
 ## 目次
-* [talker.py](#talker.py)
-* [listener.py](#listener.py)
-* [uranai_talker.py](#uranai_talker.py)
-* [uranai_listener.py](#uranai_listener.py)
-* [talk_listen.launch.py](#talk_listen.launch.py)
+* [talker.py](#talkerpy)
+* [listener.py](#listenerpy)
+* [uranai_talker.py](#uranai_talkerpy)
+* [uranai_listener.py](#uranai_listenerpy)
+* [talk_listen.launch.py](#talk_listenlaunchpy)
 * [トピック](#トピック)
 * [コマンドと実行例](#コマンドと実行例)
 * [必要なソフトウェア](#必要なソフトウェア)
