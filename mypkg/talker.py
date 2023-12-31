@@ -21,19 +21,8 @@ class Talker():
 def main():
     rclpy.init()
     node = Node("talker")
-    # talker = Talker(node) #
-    # node.create_timer(0.5, node.cb)
+    talker = Talker(node)
     rclpy.spin(node)
 
-if __name__ == '__main__': #
-    main() #
-
-#def cb(): #
-#    msg = Int16()
-#    msg.data = talker.n
-#    talker.pub.publish(msg)
-#    talker.n += 1
-
-# node.create_timer(0.5, cb)
-# arclpy.spin(node)
-
+if __name__ == '__main__':
+    main()
