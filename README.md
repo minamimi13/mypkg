@@ -21,21 +21,21 @@
 * [著作権・ライセンス](#著作権ライセンス)
 
 ## talker.py
-16ビット符号付き整数をトピックのcountupを通じてパブリッシュするパブリッシャ
+16ビット符号付き整数をトピックのcountupを通じてパブリッシュするノード
 ## listener.py
-トピックのcountupから16ビット符号付き整数をサブスクライブするサブスクライバ
+トピックのcountupから16ビット符号付き整数をサブスクライブするノード
 ## uranai_talker.py
-16ビット符号付き整数をトピックのuranaiを通じてパブリッシュするパブリッシャ
+16ビット符号付き整数をトピックのuranaiを通じてパブリッシュするノード
 ## uranai_listener.py
-トピックのuranaiから16ビット符号付き整数をサブスクライブするサブスクライバ
+トピックのuranaiから16ビット符号付き整数をサブスクライブするノード
 ## talk_listen.launch.py
 countupを送信するtalker.pyとlistener.pyを1つの端末で実行
 ## uranai_talk_listen.launch.py
 uranaiを送信するuranai_talker.pyとuranai_listener.pyを1つの端末で実行
 ### トピック
-### countup
+* countup
 「talker.py」ノードが送信した情報を「listener.py」ノードが受信する、ノード間をやり取りする通路
-### uranai
+* uranai
 「uranai_talker.py」ノードが送信した情報を「uranai_listener.py」ノードが受信する、ノード間をやり取りする通路
 
 ## コマンドと実行例
