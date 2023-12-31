@@ -4,25 +4,37 @@
 
 #### ロボットシステム学2023　授業課題用リポジトリ
 このリポジトリはtalkerとlistenerとの間で相互通信を行うROS 2のパッケージです。
+これには占い結果を表示させるtalkerとlistenerの相互通信が含まれます。
 
 ## 目次
 * [概要](#概要)
 * [コマンドと実行例](#コマンドと実行例)
-
+* [必要なソフトウェア](#必要なソフトウェア)
 * [テスト環境](#テスト環境)
 * [著作権・ライセンス](#著作権ライセンス)
-## 概要
-これには占い結果を表示させるtalkerとlistenerの相互通信が含まれます。
 
+## talker
 
+## listener
+
+## uranai_talker
+
+## uranai_listener
+
+## talk_listen.launch.py
+
+## talk
+
+## トピック
 ## コマンドと実行例
 
 
-
-## テスト環境
+## 必要なソフトウェア
 * Python
 * Ubuntu 20.04.6 LTS
 * ROS 2 Foxy
+
+## テスト環境
 * 千葉工業大学の上田隆一先生のコンテナを使用し、テストを行っています。
   * [ryuichiueda/ubuntu22.04-ros2](https://hub.docker.com/r/ryuichiueda/ubuntu22.04-ros2)
 
