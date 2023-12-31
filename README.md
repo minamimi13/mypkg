@@ -19,20 +19,22 @@
 * [著作権・ライセンス](#著作権ライセンス)
 
 ## talker.py
-
+countupを送信
 ## listener.py
-
+countupを送信
 ## uranai_talker.py
-
+uranaiを送信
 ## uranai_listener.py
-
+uranaiを送信
 ## talk_listen.launch.py
-
+countupを送信するtalker.pyとlistener.pyを1つの端末で実行
+## uranai_talk_listen.launch.py
+uranaiを送信するuranai_talker.pyとuranai_listener.pyを1つの端末で実行
 ### トピック
 ### countup
-
+talker.pyから出力された情報をlistener.pyが受信し、表示する通信経路
 ### uranai
-
+uranai_talker.pyから出力された情報をuranai_listener.pyが受信し、表示する通信経路
 
 ## コマンドと実行例
 ### 例1
