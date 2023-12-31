@@ -32,9 +32,9 @@ countupを送信するtalker.pyとlistener.pyを1つの端末で実行
 uranaiを送信するuranai_talker.pyとuranai_listener.pyを1つの端末で実行
 ### トピック
 ### countup
-talker.pyから出力された情報をlistener.pyが受信し、表示する通信経路
+「talker.py」ノードから出力された情報を「listener.py」ノードが受信する、ノード間をやり取りする通路
 ### uranai
-uranai_talker.pyから出力された情報をuranai_listener.pyが受信し、表示する通信経路
+「uranai_talker.py」ノードから出力された情報を「uranai_listener.py」ノードが受信する、ノード間をやり取りする通路
 
 ## コマンドと実行例
 ### 例1
