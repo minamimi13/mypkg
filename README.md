@@ -28,9 +28,37 @@
 ## talk_listen.launch.py
 
 ### トピック
+### countup
+
+### uranai
 
 
 ## コマンドと実行例
+### 例1
+#### 端末1
+~~~
+$ ros2 run mypkg talker
+~~~
+#### 端末2
+~~~
+$ ros2 topic echo /countup
+~~~
+#### 実行結果(端末2(受信側)にて表示)
+~~~
+data: 147
+---
+data: 148
+---
+data: 149
+---
+data: 150
+---
+data: 151
+---
+data: 152
+---
+...
+~~~
 
 
 ## 必要なソフトウェア
