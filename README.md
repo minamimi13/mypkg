@@ -13,28 +13,30 @@
 * [uranai_listener.py](#uranai_listenerpy)
 * [talk_listen.launch.py](#talk_listenlaunchpy)
 * [トピック](#トピック)
+  * [countup](#countup)
+  * [uranai](#uranai)  
 * [コマンドと実行例](#コマンドと実行例)
 * [必要なソフトウェア](#必要なソフトウェア)
 * [テスト環境](#テスト環境)
 * [著作権・ライセンス](#著作権ライセンス)
 
 ## talker.py
-countupを送信
+16ビット符号付き整数をトピックのcountupを通じてパブリッシュするパブリッシャ
 ## listener.py
-countupを送信
+トピックのcountupから16ビット符号付き整数をサブスクライブするサブスクライバ
 ## uranai_talker.py
-uranaiを送信
+16ビット符号付き整数をトピックのuranaiを通じてパブリッシュするパブリッシャ
 ## uranai_listener.py
-uranaiを送信
+トピックのuranaiから16ビット符号付き整数をサブスクライブするサブスクライバ
 ## talk_listen.launch.py
 countupを送信するtalker.pyとlistener.pyを1つの端末で実行
 ## uranai_talk_listen.launch.py
 uranaiを送信するuranai_talker.pyとuranai_listener.pyを1つの端末で実行
 ### トピック
 ### countup
-「talker.py」ノードから出力された情報を「listener.py」ノードが受信する、ノード間をやり取りする通路
+「talker.py」ノードが送信した情報を「listener.py」ノードが受信する、ノード間をやり取りする通路
 ### uranai
-「uranai_talker.py」ノードから出力された情報を「uranai_listener.py」ノードが受信する、ノード間をやり取りする通路
+「uranai_talker.py」ノードが送信した情報を「uranai_listener.py」ノードが受信する、ノード間をやり取りする通路
 
 ## コマンドと実行例
 ### 例1
