@@ -140,20 +140,41 @@ $ ros2 launch mypkg talk_listen.launch.py
 ~~~
 #### 実行結果
 ~~~
-[INFO] [launch]: All log files can be found below /home/kitami/.ros/log/2023-12-31-22-03-33-705358-marine00-24446
+[INFO] [launch]: All log files can be found below /home/kitami/.ros/log/2023-12-31-22-54-36-176252-marine00-29354
 [INFO] [launch]: Default logging verbosity is set to INFO
-[INFO] [talker-1]: process started with pid [24448]
-[INFO] [listener-2]: process started with pid [24450]
-[INFO] [uranai_talker-3]: process started with pid [24452]
-[INFO] [uranai_listener-4]: process started with pid [24454]
-[listener-2] [INFO] [1704027814.512730805] [listener]: Listen: 2310
-[listener-2] [INFO] [1704027814.693029527] [listener]: Listen: 0
-[uranai_listener-4] [INFO] [1704027814.760633671] [uranai_listener]: 今日の運勢は健康に注意してください
-[uranai_listener-4]
-[listener-2] [INFO] [1704027814.994550555] [listener]: Listen: 2311
-[listener-2] [INFO] [1704027815.193163402] [listener]: Listen: 1
-[uranai_listener-4] [INFO] [1704027815.241231650] [uranai_listener]: 今日の運勢は過激な闘争心が湧くでしょう
-[uranai_listener-4]
+[INFO] [talker-1]: process started with pid [29356]
+[INFO] [listener-2]: process started with pid [29358]
+[listener-2] [INFO] [1704030877.085699737] [listener]: Listen: 0
+[listener-2] [INFO] [1704030877.568689092] [listener]: Listen: 1
+[listener-2] [INFO] [1704030878.068456514] [listener]: Listen: 2
+[listener-2] [INFO] [1704030878.567859119] [listener]: Listen: 3
+[listener-2] [INFO] [1704030879.068130374] [listener]: Listen: 4
+[listener-2] [INFO] [1704030879.568286558] [listener]: Listen: 5
+~~~
+
+### 例6
+#### 端末1
+~~~
+$ ros2 launch mypkg uranai_talk_listen.launch.py
+~~~
+#### 実行結果
+~~~
+[INFO] [launch]: All log files can be found below /home/kitami/.ros/log/2023-12-31-22-58-00-391074-marine00-29685
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [uranai_talker-1]: process started with pid [29687]
+[INFO] [uranai_listener-2]: process started with pid [29689]
+[uranai_listener-2] [INFO] [1704031081.283284138] [uranai_listener]: 今日の運勢は決断と実行が発揮されるでしょう
+[uranai_listener-2]
+[uranai_listener-2] [INFO] [1704031081.759505564] [uranai_listener]: 今日の運勢は陽気な一日になるでしょう
+[uranai_listener-2]
+[uranai_listener-2] [INFO] [1704031082.259828328] [uranai_listener]: 今日の運勢は陽気な一日になるでしょう
+[uranai_listener-2]
+[uranai_listener-2] [INFO] [1704031082.759874254] [uranai_listener]: 今日の運勢は希望が実現するでしょう
+[uranai_listener-2]
+[uranai_listener-2] [INFO] [1704031083.259558065] [uranai_listener]: 今日の運勢は磁力的な魅力が湧き出るでしょう
+[uranai_listener-2]
+[uranai_listener-2] [INFO] [1704031083.759526317] [uranai_listener]: 今日の運勢は豊かな成果があります
+[uranai_listener-2]
 ~~~
 
 ## 必要なソフトウェア
