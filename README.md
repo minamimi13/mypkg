@@ -181,8 +181,8 @@ $ ros2 launch mypkg uranai_talk_listen.launch.py
 [uranai_listener-2]
 ~~~
 
-## 必要なソフトウェア
-* Python
+## 動作確認済み環境
+* Python 3.8.10
 * Ubuntu 20.04.6 LTS
 * ROS 2 Foxy
 
