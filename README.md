@@ -4,7 +4,8 @@
 
 #### ロボットシステム学2023　授業課題用リポジトリ
 このリポジトリはtalkerとlistenerとの間で相互通信を行うROS 2のパッケージです。
-これには占い結果を表示させるtalkerとlistenerの相互通信が含まれます。
+また、uranai_talkerとuranai_listener間で相互通信を行うROS 2のパッケージを含みます。
+talkerとlistenerとの間ではcountupを、uranai_talkerとuranai_listener間ではuranaiをトピックとして利用しています。
 
 ## 目次
 * [talker.py](#talkerpy)
