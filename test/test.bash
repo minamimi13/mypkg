@@ -17,9 +17,7 @@ timeout 10 ros2 launch mypkg uranai_talk_listen.launch.py > /tmp/uranai_mypkg.lo
 
 # どちらもログに期待する文字列が含まれていれば 0 を返す
 if grep -q 'Listen: 10' /tmp/mypkg.log && grep -q '今日の運勢' /tmp/uranai_mypkg.log; then
-    echo "OK"
     exit 0
 else
-    echo "Error!"
     exit 1
 fi
