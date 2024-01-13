@@ -197,8 +197,7 @@ $ ros2 launch mypkg uranai_talk_listen.launch.py
 * Runner Image
   * Image : Ubuntu-20.04
   * Version : 20240107.1.0
-  * Included Software: (https://github.com/actions/runner-images/blob/ubuntu20/20240107.1/images/ubuntu/Ubuntu2004-Readme.md)
-  * Image Release: (https://github.com/actions/runner-images/releases/tag/ubuntu20%2F20240107.1)
+  
 
   
 ## テスト環境
