@@ -18,6 +18,7 @@ talkerとlistenerとの間ではcountupを、uranai_talkerとuranai_listener間�
   * [uranai](#uranai)  
 * [コマンドと実行例](#コマンドと実行例)
 * [動作確認済み環境](#動作確認済み環境)
+  * [GitHub Actions](#GitHubActions)
 * [テスト環境](#テスト環境)
 * [著作権・ライセンス](#著作権ライセンス)
 
@@ -187,6 +188,19 @@ $ ros2 launch mypkg uranai_talk_listen.launch.py
 * Ubuntu 20.04.6 LTS
 * ROS 2 Foxy
 
+### GitHub Actions
+* Current runner version 2.311.0
+* Operating System
+  * Ubuntu
+  * 20.04.6
+  * LTS
+* Runner Image
+  * Image : Ubuntu-20.04
+  * Version : 20240107.1.0
+* RUnner Image Provisioner
+  * 2.0.324.1
+
+  
 ## テスト環境
 * 千葉工業大学の上田隆一先生のコンテナを使用し、テストを行っています。
   * [ryuichiueda/ubuntu22.04-ros2](https://hub.docker.com/r/ryuichiueda/ubuntu22.04-ros2)
