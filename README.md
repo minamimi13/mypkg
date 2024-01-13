@@ -191,9 +191,7 @@ $ ros2 launch mypkg uranai_talk_listen.launch.py
 ### GitHub Actions
 * Current runner version 2.311.0
 * Operating System
-  * Ubuntu
-  * 20.04.6
-  * LTS
+  * Ubuntu 20.04.6 LTS
 * Runner Image
   * Image : Ubuntu-20.04
   * Version : 20240107.1.0
