@@ -18,7 +18,7 @@ talkerとlistenerとの間ではcountupを、uranai_talkerとuranai_listener間�
   * [uranai](#uranai)  
 * [コマンドと実行例](#コマンドと実行例)
 * [動作確認済み環境](#動作確認済み環境)
-  * [GitHub Actions](#GitHubActions)
+  * [GitHub Actions](#github-actions)
 * [テスト環境](#テスト環境)
 * [著作権・ライセンス](#著作権ライセンス)
 
