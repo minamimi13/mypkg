@@ -3,8 +3,7 @@
 ![test](https://github.com/minamimi13/mypkg/actions/workflows/test.yml/badge.svg)
 
 #### ロボットシステム学2023　授業課題用リポジトリ
-このリポジトリはtalkerとlistenerとの間で相互通信を行うROS 2のパッケージです。
-また、uranai_talkerとuranai_listener間で相互通信を行うROS 2のパッケージを含みます。
+このリポジトリはtalkerとlistenerとの間、uranai_talkerとuranai_listenerとの間で相互通信を行うROS 2のパッケージです。
 talkerとlistenerとの間ではcountupを、uranai_talkerとuranai_listener間ではuranaiをトピックとして利用しています。
 
 ## 目次
